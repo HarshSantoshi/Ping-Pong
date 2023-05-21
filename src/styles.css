@@ -1,0 +1,50 @@
+/* All the CSS is written below */
+*{
+    background-color: rgb(0, 0, 0);
+}
+/* CSS for container */
+#container {
+    position: absolute;
+}
+
+
+/* CSS of the ball */
+#ball {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(10, 247, 53);
+    top:25px;
+    left: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 1px white;
+   
+}
+
+
+/* CSS for both the rods */
+#rod1, #rod2 {
+    width: 175px;
+    height: 25px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    vertical-align:middle;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* CSS for rod 1  */
+#rod1 {
+    background-color: rgb(233, 5, 5);
+    top: 0px;    
+}
+
+
+/* CSS for rod 2 */
+#rod2 {
+    background-color: rgb(13, 21, 242);
+    bottom: 0px;
+}
